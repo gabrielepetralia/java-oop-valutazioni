@@ -36,12 +36,12 @@ public class Main {
 			System.out.println("\n==============================\n");
 		}
 		
-		Studente[] studentiPromossi = new Studente[countPromoted];
-		Studente[] studentiBocciati = new Studente[lng - countPromoted];
-		
 		System.out.println("Numero studenti promossi: " + countPromoted + " su " + lng);
 		
 		//Bonus 
+		Studente[] studentiPromossi = new Studente[countPromoted];
+		Studente[] studentiBocciati = new Studente[lng - countPromoted];
+		
 		int indexPromossi = 0;
 		int indexBocciati = 0;
 		
